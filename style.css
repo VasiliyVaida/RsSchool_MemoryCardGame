@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  background-color: #eee8aa;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  background-color: #191970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-cards {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memory-card {
+  width: 16.66%;
+  background-color: #0000ff;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-card__img-wrapper_facial {
+  background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.memory-card__img-wrapper_back {
+  background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-card__img-wrapper_back img {
+  width: 100%;
+  height: 100%;
+}
